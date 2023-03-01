@@ -117,3 +117,24 @@ Also the **SAVE** button will save a .png image with the plot of the curve that 
 
 # 4: The option get dose
 When we click to the option 'OBTENER DOSIS', that stands for 'get dose', we will get this window:
+![getdose](https://user-images.githubusercontent.com/125628193/222111442-6f6f3db2-a0b0-4655-ba62-6e94182bdd3e.png)
+
+Here we have 4 zones:
+5- Film to analize.
+6- Image editor.
+7- Calibration curve to use.
+8- Get dose zone.
+
+Here we can say that the 5 and 6 are basically the same as in the main window 1 and 2 to get the curve, we only charge an image (with the 5) and select a segment of the film image that will give us the information (with the 6), but in this case we are gonna use that information to get the point of dose where that information belongs in our pre-built calibration curve.
+
+# 7: Calling the calibration curve
+The button marked with a seven, will open the file browser, and we are supposed to choose the .txt file with the information of the calibration curve belonging to the batch of films of the film that we are analazing that we previously saved in previous steps. 
+This step will charge the plot corresponding to that curve of calibration in the big white rectangle. And also will give us the equation of the curve that we selected.
+![curveuploaded](https://user-images.githubusercontent.com/125628193/222113930-386f5973-1d86-48b3-8ade-0fe5a5df4823.png)
+
+# 8: Getting the dose
+After we uploeaded bot, the calibration curve information and the information of the film that we want to analize, we can finally get the desired dose!
+![final](https://user-images.githubusercontent.com/125628193/222115961-7af2de3f-a67a-4f61-a7f7-1d706dfd7b04.png)
+
+To achieve this we only need to press in the get dose button. And we will get the dose next to the get dose button and ploted in the curve.
+Also we can press the sreenshot buton to open the files browser and save a screenshot of what we have.
