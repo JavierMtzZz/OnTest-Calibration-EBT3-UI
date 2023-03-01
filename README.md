@@ -18,6 +18,8 @@ Is also important to know that to run the python file, is necessary that the .ui
 
 3- The color intensity that we extract of the tif images is in the red channel.
 
+4- We are going to refer to the radiochromic films as PTR.
+
 ----
 
 # UI main window:
@@ -28,7 +30,7 @@ In the main window we have four important areas, they're also numbered in the or
 
 ----
 
-# PTR scans uploader and image editor 
+# 1 and 2: PTR scans uploader and image editor 
 
 In this section we're going to upload the scans of the PTR's that we threat with radiation, to do that we need to click in the green squares. Before we star explaining the process is important to know that the first square or 'PELÍCULA SIN IRRADIAR' is for the EBT3 film that wasn’t irradiated and that’s the reason because have a box of 0 cGy; taking this in account is crucial for the good functioning of the UI, or at least to get a good calibration curve.
 
@@ -90,4 +92,28 @@ We can also say that we only can enter integer numbers like dose's, that's the r
 ## Repeat this section for all your EBT3 films!!!
 We only need to repeat those steps with all the images and that's all for the information upload! Also, can be neccesary to say that we need to put the non irradiated EBT3 film on the get image square that have a text box of '0 cGy'
 
-# Getting the calibration curve
+----
+
+# 3: Getting the calibration curve
+After we get all the information relative to the EBT3 films (intensity of color in the red channel and the dose of the films). We can get the calibration curve! 
+To get the calibration curve we only need to press one of these two buttons:
+![GetCurve](https://user-images.githubusercontent.com/125628193/222103319-2b0a90d2-6b2a-420f-9a58-8d980432add1.png)
+
+To do a regression of 3rd or 4th order, depending the way you take your measurements. After getting your curve.
+You can save the information of that curve for the future when you need it, this by clicking in the button marked as save. When we press the save button, we will open a file browser to decide where we want to save the information of our curve, giving us a .txt file like the next one:
+![archivotxt](https://user-images.githubusercontent.com/125628193/222104711-e7a81ca2-33f8-47f7-8cab-0464b787eeba.png)
+
+- The first two rows are for the #4 options called in the Main UI segment of this text. 
+- The third row is the equation of our curve
+- Next we have a table with the next format:
+  Film|Dose|Intensity of color in the red channel|Standard deviation (of the intensity of color)|Optic Density
+  ---|---|---|---|---
+  This is to the medical physist know what are the values that the program is using.
+- And finally we have the date that the .txt file was created.
+
+Also the **SAVE** button will save a .png image with the plot of the curve that we saved.
+
+----
+
+# 4: The option get dose
+When we click to the option 'OBTENER DOSIS', that stands for 'get dose', we will get this window:
