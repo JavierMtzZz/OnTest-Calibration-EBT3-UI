@@ -87,5 +87,7 @@ We can also see that there is a new parameter in the information on the upper ri
 
 We can also say that we only can enter integer numbers like dose's, that's the reason because we are advertised to text the dose in cGy, but it shoudn't be a problem, taking in count that we usually use doses in the order of cGy for RT. And even if we introduce something that is not an integer, the text box will give us a message to please enter an integer.
 
+## Repeat this section for all your EBT3 films!!!
+We only need to repeat those steps with all the images and that's all for the information upload! Also, can be neccesary to say that we need to put the non irradiated EBT3 film on the get image square that have a text box of '0 cGy'
 
-
+# Getting the calibration curve
