@@ -65,6 +65,7 @@ In this section we're gonna upload the scans of the PTR's that we threat with ra
   * The square now is orange, this is because the program doesn't have save information of that image yet.
   * Now there is something in the image editor.
 
+## Starting using the editor
 The next step will be to use the image editor to save information of the last selected item on the square that we're using, to use the image editor we have to select a zone in the image:
 ![editor1](https://user-images.githubusercontent.com/125628193/222059999-b41e4e44-ab03-4e07-8430-38a3ec1fe5d4.png)
 
@@ -72,7 +73,11 @@ And after selecting a zone you can start to interact with the buttons below. The
 * CUT button: this will cut the zone that we selected:
 ![editor2](https://user-images.githubusercontent.com/125628193/222061811-9783ec04-8318-4921-8c8b-4b20b5302b7c.png)
   - When we cut the image the UI give us information in the upper right corner about the last cut that we made, we have; first the avarage of the intensity of color in the red channel for the zone that we selected and second the standard deviation that we suffer in the same.
-  - When we do a cut the image in the editor will be updated to the segment that we trimed 
-* RESTABILSH button: The restablish button will restabilsh the image in the editor
-*
+  - When we do a cut the image in the editor will be updated to the segment that we cropped.
+* RESTABILSH button: The restablish button will restore the image in the editor to the original last .tif image that we choose, this is for possible errors when cropping.
+* ACCEPT button: This button will save the information of the segment of the image that we cropped, will set the color of the square to grey and will turn on the text box that is connected to the 'get image' button that we used, giving us a green background color for that text box as a signal that we already haven't a value in the box.
+![text box](https://user-images.githubusercontent.com/125628193/222066054-a43991bb-1d4f-410b-ad27-86502f824129.png)
+
+## Text box
+The text box is for introducing in the program the dose that we use to irradiate the PTR that is conected to the box, its 
 
