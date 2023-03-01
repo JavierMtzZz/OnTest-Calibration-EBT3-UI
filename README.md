@@ -108,6 +108,7 @@ You can save the information of that curve for the future when you need it, this
 - Next we have a table with the next format:
   Film|Dose|Intensity of color in the red channel|Standard deviation (of the intensity of color)|Optic Density
   ---|---|---|---|---
+  
   This is to the medical physist know what are the values that the program is using.
 - And finally we have the date that the .txt file was created.
 
