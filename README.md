@@ -79,5 +79,13 @@ And after selecting a zone you can start to interact with the buttons below. The
 ![text box](https://user-images.githubusercontent.com/125628193/222066054-a43991bb-1d4f-410b-ad27-86502f824129.png)
 
 ## Text box
-The text box is for introducing in the program the dose that we use to irradiate the PTR that is conected to the box, its 
+The text box is for introducing in the program the dose that we use to irradiate the PTR that is conected to the box, to enter the dose in the text box you only need to select it like any text box, type the dose in centi Grays and press enter.
+![textvo2](https://user-images.githubusercontent.com/125628193/222071461-bc1cc71f-b89e-4395-8a63-baeb304893c6.png)
+
+After we enter a dose, we can see that the text box is now in white, that means that the program stored a dose for the linked PTR info. 
+We can also see that there is a new parameter in the information on the upper right corner. The new parameter is the information about the last dose that we have introduced in the program (at first to let us know if we for example forgot to press the enter key in the box).
+
+We can also say that we only can enter integer numbers like dose's, that's the reason because we are advertised to text the dose in cGy, but it shoudn't be a problem, taking in count that we usually use doses in the order of cGy for RT. And even if we introduce something that is not an integer, the text box will give us a message to please enter an integer.
+
+
 
